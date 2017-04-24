@@ -1,0 +1,6 @@
+{
+    "botname": "AutoboosterBot",    
+    "email": "youremail@gmail.com",
+    "password": "yourpassword",
+    "instance_url": "https://mastodon.social"
+}
