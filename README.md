@@ -1,8 +1,8 @@
 # Autobooster bot for Mastodon
 
-Automatically boosts all the posts made by a user.
+This bot automatically boosts all the posts made by a user.
 
-This bot can be useful if you have moved your account to a different instance, and want to automatically share all your posts with your old followers.
+It can be useful if you have moved your account to a different instance, and want to automatically share all your posts with your old followers.
 
 # Usage
 
