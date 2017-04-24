@@ -1,4 +1,4 @@
-# Autobooster bot for Mastodon
+# AutoBooster bot for Mastodon
 
 This bot automatically boosts all the posts made by a user.
 
