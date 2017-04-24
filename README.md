@@ -46,7 +46,7 @@ crontab -e
 And at the end of the file add the line:
 
 ```
-0,30 * * * * python3 /path/to/the/script/autobooster.py SourceUsername@instance.social
+0,30 * * * * cd /path/to/autobooster/ && python3 autobooster.py SourceUsername@instance.social
 ```
 
 (this will execute every 30 minutes)
