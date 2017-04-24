@@ -19,7 +19,7 @@ Install Mastodon API wrapper:
 pip3 install Mastodon.py
 ```
 
-Rename `config.json.sample` into `config.json`, and enter your email/password/instance.
+Rename `config.json.sample` into `config.json`, and enter email/password/instance of the account that should automatically boost the posts.
 
 Now to automatically boost all the recent posts made by a `username@instance.social` you can run:
 
