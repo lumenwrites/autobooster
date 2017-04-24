@@ -4,7 +4,7 @@ import json
 
 def mastodon_bot(botname, email, password, instance_url='https://mastodon.social'):
     # This will be used to generate unique names for files containing your credentials
-    # So that you could run several bots with different credentials
+    # So that you could run several bots with different accounts
     account_name = email+"_"+instance_url.replace("https://","")+"_"
 
     # Create app if doesn't exist
@@ -63,10 +63,10 @@ with open('config.json', 'r') as f:
 
 try:
     # Can also pass the rebooster account credentials as arguments
-    botname =  sys.argv[2]
-    email =  sys.argv[3]
-    password =  sys.argv[4]
-    instance_url =  sys.argv[5]
+    botname = "AutoboosterBot"
+    email =  sys.argv[2]
+    password =  sys.argv[3]
+    instance_url =  sys.argv[4]
 except:
     botname = config["botname"]
     email = config["email"]

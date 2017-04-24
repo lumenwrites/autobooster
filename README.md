@@ -21,12 +21,17 @@ pip3 install Mastodon.py
 
 Rename `config.json.sample` into `config.json`, and enter email/password/instance of the account that should automatically boost the posts.
 
-Now to automatically boost all the recent posts made by a `username@instance.social` you can run:
+Now to automatically boost all the recent posts made by a `SourceUsername@instance.social` you can run:
 
 ```
-python3 ./autobooster.py username@instance.social
+python3 ./autobooster.py SourceUsername@instance.social
 ```
 
+If you need to run more than one bot, instead of modifying config.json you can specify the autobooster account credentials as arguments:
+
+```
+python3 ./autobooster.py SourceUsername@instance.social autobooster@gmail.com autobooster_password https://autoboosters-instance.social
+```
 
 # Run it regularly
 
